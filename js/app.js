@@ -475,7 +475,7 @@ function homeScreen(root) {
   topbar(root);
   root.append(el("div", { class: "hero" },
     el("h1", null, "Holiday Spanish"),
-    el("p", null, ES() ? "Spanish for your holiday — Spain mode" : "Spanish for your holiday in Venezuela"),
+    el("p", null, ES() ? "Spanish for your holiday — Spain mode" : "Spanish for your holiday in South America"),
     el("div", { class: "chips" },
       el("span", { class: "motto" }, "💛 Connection over perfection"),
       el("button", { class: "modechip", onclick: () => go(settingsScreen) }, ES() ? "🇪🇸 Spain mode" : "🇻🇪 Venezuela mode"))));
@@ -519,7 +519,7 @@ function homeScreen(root) {
   const cur = nodes.find(n => n.L === current);
   if (cur) map.append(el("div", { class: "runner", style: `left:calc(${cur.x}% ${cur.x >= 50 ? "- 115px" : "+ 50px"});top:${cur.y - 60}px` }, el("img", { src: "logo.webp", alt: "" })));
   root.append(map);
-  root.append(el("div", { class: "foot" }, "SKILLS · Holiday Spanish (Venezuela) · Start + 40 units"));
+  root.append(el("div", { class: "foot" }, "SKILLS · Holiday Spanish (South America) · Start + 40 units"));
   if (cur && cur.L !== START) setTimeout(() => window.scrollTo({ top: Math.max(0, cur.y - 160), behavior: "smooth" }), 250);
 }
 
