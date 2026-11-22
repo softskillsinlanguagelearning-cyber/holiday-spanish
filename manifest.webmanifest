@@ -1,0 +1,17 @@
+{
+  "name": "SKILLS · Holiday Spanish",
+  "short_name": "Holiday Spanish",
+  "description": "Holiday Spanish (Venezuela): words, phrases, conversations and games for your holiday.",
+  "lang": "en",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF6EF",
+  "theme_color": "#D7372B",
+  "categories": ["education"],
+  "icons": [
+    { "src": "logo.webp", "sizes": "1024x1536", "type": "image/webp", "purpose": "any" }
+  ]
+}
